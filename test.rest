@@ -1,0 +1,28 @@
+
+### POST User
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Tesztfiok",
+    "email": "a@a.com",
+    "password": "ASDasd123"
+}
+
+### GET one user
+
+GET http://localhost:3000/users/2
+Content-Type: application/json
+
+
+### PATCH user by id
+PATCH http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+    "name": "Termesz2",
+    "age": 25,
+    "gender": "male"
+}

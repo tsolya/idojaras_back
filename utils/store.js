@@ -48,7 +48,7 @@ function loadUsers(){
     }
    
 }
-//
+//lézezik-e az email megkeresése
 function isEmailExist(email){
     let exists = false
     users.forEach(user=> {
