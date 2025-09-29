@@ -25,7 +25,6 @@ router.get('/:id',(req,res)=>{
     }
     return res.status(400).send({msg:"Nincs ilyen azonosítójú felhasználó!"})
 })
-
 //POST user login
 
 router.post('/login', (req, res) => {
