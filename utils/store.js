@@ -101,7 +101,7 @@ function loadWeather(){
         }
     }
     else{
-        saveStepdata()
+       saveWeathers()
     }
 }
 module.exports = {
