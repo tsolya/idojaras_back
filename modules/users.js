@@ -15,8 +15,9 @@ router.post('', (req,res)=>{
     saveUsers()
    });
    
-// GET one user by id
 
+
+// GET one user by id
 router.get('/:id',(req,res)=>{
     let id = Number(req.params.id)
     let idx = users.findIndex(user => Number(user.id) === id)

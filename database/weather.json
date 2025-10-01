@@ -1,1 +1,1 @@
-[{"id":1,"uid":1,"date":"2025-09-30","min":"10","max":"10","type":"rainy"},{"id":2,"uid":1,"date":"2025-10-04","min":"10","max":"15","type":"snowy"},{"id":3,"uid":1,"date":"2025-10-11","min":"20","max":"24","type":"sunny"}]
+[{"id":1,"uid":1,"date":"2025-10-01","min":"20","max":"20","type":"foggy"},{"id":2,"uid":2,"date":"2025-10-02","min":"10","max":"10","type":"sunny"},{"id":3,"uid":3,"date":"2025-11-06","min":"10","max":"10","type":"foggy"}]
